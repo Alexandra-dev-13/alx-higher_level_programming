@@ -1,3 +1,5 @@
 #!/usr/bin/python3
 
-print("abcdefghijklmnopqrstuvwxyz")
+list = "abcdefghijklmnopqrstuvwxyz"
+for letter in list:
+    print("{}".format(letter))
