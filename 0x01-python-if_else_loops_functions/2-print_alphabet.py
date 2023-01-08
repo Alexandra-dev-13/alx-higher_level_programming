@@ -2,4 +2,4 @@
 
 list = "abcdefghijklmnopqrstuvwxyz"
 for letter in list:
-    print("{}".format(letter))
+    print("{}".format(letter), end="")
